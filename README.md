@@ -1,5 +1,5 @@
 # About
-Install KeeneticOS on Xiaomi Router 4C
+Install KeeneticOS from Xiaomi Router 4C stock firmware 
 
 # Requirements 
 - Termux
