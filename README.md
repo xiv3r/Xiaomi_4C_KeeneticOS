@@ -7,7 +7,7 @@ Install KeeneticOS from Xiaomi Router 4C stock firmware
 # Install
 - Openwrt invasion
 ```
-pkg update && pkg upgrade -y && pkg install -y git python
+pkg update && pkg upgrade -y && pkg install -y git python python-pip
 
 git clone https://github.com/acecilia/OpenWRTInvasion.git
 
