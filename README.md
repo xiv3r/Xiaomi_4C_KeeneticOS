@@ -30,13 +30,7 @@ KeeneticOS for Xiaomi Mi Router 4C
 # Install
 - Termux Openwrt Invasion
 ```
-pkg update && pkg upgrade -y && pkg install -y git python python-pip
-
-git clone https://github.com/acecilia/OpenWRTInvasion.git
-
-cd OpenWRTInvasion
-
-pip install -r requirements.txt
+pkg update && pkg upgrade -y && pkg install wget -y && wget -qO- https://raw.githubusercontent.com/xiv3r/termux-openwrt-invasion/refs/heads/main/openwrt-invasion.sh | sh && cd openwrt-invasion && ls
 ```
 
 # Setup
