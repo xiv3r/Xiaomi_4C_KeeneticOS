@@ -72,5 +72,10 @@ https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/releases/download/4.1.7/keenetic_f
 
 - Go to the [192.168.1.1](http://192.168.1.1) upgrade -> bootloader
 - upload the firmware then the router will reboot and done.
+<img src="https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/blob/main/breed-bootloader.jpg">
+
+
+# KeeneticOS firmware 
+<img src="https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/blob/main/multiwan.png">
 
 
