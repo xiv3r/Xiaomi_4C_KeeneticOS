@@ -52,7 +52,7 @@ pass: root
 # Install breed
 ```
 cd /tmp
-wget -O breed.bin 
+wget -O breed.bin https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/raw/refs/heads/main/cnBreed.bin
 ```
 - Flush the breed bootloader
 ```
