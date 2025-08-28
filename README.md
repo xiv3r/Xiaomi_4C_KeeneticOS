@@ -28,7 +28,7 @@ KeeneticOS for Xiaomi Mi Router 4C
 - Termux
 
 # Install
-- Openwrt invasion
+- Termux Openwrt Invasion
 ```
 pkg update && pkg upgrade -y && pkg install -y git python python-pip
 
@@ -40,13 +40,14 @@ pip install -r requirements.txt
 ```
 
 # Setup
-- Reset and Configure the router using the password 12345678
+- Reset first and Configure the router using the password 12345678
+- Connect to the Xiaomi SSID and execute the script below 👇 
 
 # Execute 
 ```
 python remote_command_execution_vulnerability.py
 ```
-- enter the password and enter to use tge default settings
+- enter the password and enter for the default settings
 - wait until the installation is finished
 
 # Telnet
@@ -54,19 +55,18 @@ python remote_command_execution_vulnerability.py
 telnet 192.168.31.1
 ```
 login: root
-pass: root
+password: root
 
-# Install breed
+# Install Breed Bootloader 
 ```
-cd /tmp
-wget -O breed.bin https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/raw/refs/heads/main/cnBreed.bin
+wget -O /tmp/breed.bin https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/raw/refs/heads/main/cnBreed.bin
 ```
 - Flush the breed bootloader
 ```
 mtd -r write /tmp/breed.bin Bootloader
 ```
 # Flush firmware
-- Download the firmware
+- Download the firmware first 
 
 https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/releases/download/4.1.7/keenetic_firmware_kn2212_v4.1.7.bin
 
