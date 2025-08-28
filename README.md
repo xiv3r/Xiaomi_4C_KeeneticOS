@@ -3,12 +3,19 @@ KeeneticOS for Xiaomi Mi Router 4C
 
 # Features 
 - Breed Bootloader
-- LAN switch to WAN
+- LAN switch to WAN 
 - WAN switch to LAN
+- ISP Mode
+     - 4 WAN ISP = 1-WISP 3-WAN Ethernet
+- LAN Mode
+     - 3 LAN Ethernet
 - WAN/VLAN | Guest LAN/VLAN
 - TTL plugin
-- Mult-ISP Load Balancing Seamless Failover PBR
-- Multi-ISP Redundancy/Failover PBR
+- Mult-ISP Load Balancing Seamless Failover
+- Multi-ISP Redundancy/Failover
+- Special connection
+- Isolated connection
+- DHCP relay
 - USB MOD
      - Ethernet to USB Adapter
      - USB 4G/LTE Modem
