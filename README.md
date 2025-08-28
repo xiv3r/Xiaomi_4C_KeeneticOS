@@ -75,6 +75,6 @@ https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/releases/download/4.1.7/keenetic_f
 
 
 # KeeneticOS firmware 
-<img src="https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/blob/main/multiwan.png">
+<img src="https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/blob/main/multi-isp.jpg">
 
 
