@@ -77,4 +77,17 @@ https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/releases/download/4.1.7/keenetic_f
 # KeeneticOS firmware 
 <img src="https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/blob/main/multi-isp.jpg">
 
+<details><summary></summary>
+
+# Mlti-isp load balancing with seamless failover config 
+```
+    set net.ipv4.ip_forward 1
+    set net.ipv4.tcp_fastopen 3
+    set net.ipv4.tcp_mtu_probing 1
+    set net.ipv4.conf.all.rp_filter 0
+    set net.core.default_qdisc fq_codel
+    set net.ipv4.conf.all.secure_redirects 0
+    set net.ipv4.conf.all.accept_redirects 0
+```
+</details>
 
