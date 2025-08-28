@@ -1,5 +1,21 @@
 # About
-Install KeeneticOS from Xiaomi Router 4C stock firmware 
+KeeneticOS for Xiaomi Mi Router 4C
+
+# Features 
+- Breed Bootloader
+- LAN switch to WAN
+- WAN switch to LAN
+- WAN/VLAN | Guest LAN/VLAN
+- TTL plugin
+- Mult-ISP Load Balancing Seamless Failover PBR
+- Multi-ISP Redundancy/Failover PBR
+- USB MOD
+     - Ethernet to USB Adapter
+     - USB 4G/LTE Modem
+- Firewall
+- Speed limiter
+- VPN
+- MESH And so much more...
 
 # Requirements 
 - Termux
