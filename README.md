@@ -44,6 +44,8 @@ python remote_command_execution_vulnerability.py
 - enter the password and enter for the default settings
 - wait until the installation is finished
 
+<img src="https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/blob/main/openwrt_invasion.png">
+
 # Telnet
 ```
 telnet 192.168.31.1
