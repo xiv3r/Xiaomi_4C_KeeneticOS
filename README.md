@@ -59,7 +59,11 @@ wget -O breed.bin https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/raw/refs/heads/m
 mtd -r write /tmp/breed.bin Bootloader
 ```
 # Flush firmware
-- Go to the 192.168.1.1 upgrade -> bootloader
+- Download the firmware
+
+https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/releases/download/4.1.7/keenetic_firmware_kn2212_v4.1.7.bin
+
+- Go to the [192.168.1.1](http://192.168.1.1) upgrade -> bootloader
 - upload the firmware then the router will reboot and done.
 
 
