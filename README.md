@@ -53,25 +53,15 @@ telnet 192.168.31.1
 login: root
 password: root
 
-# Install Breed Bootloader 
+# Flash Firmware 
+> Download the firmware
 ```
-wget -O /tmp/breed.bin https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/raw/refs/heads/main/cnBreed.bin
+wget -O /tmp/kn2212.bin https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/releases/download/4.1.7/Full_Xiaomi_4C_KeeneticOS_4.1.7.bin
 ```
-- Flush the breed bootloader
+> Flash the firmware
 ```
-mtd -r write /tmp/breed.bin Bootloader
+mtd -r write /tmp/kn2212.bin ALL
 ```
-# Flush firmware
-- Download the firmware first 
-
-https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/releases/download/4.1.7/keenetic_firmware_kn2212_v4.1.7.bin
-
-- Go to the [192.168.1.1](http://192.168.1.1) and click the step 1 followed by clicking the step 2 upload the firmware and click step 3 then the router will reboot to KeeneticOS firmware.
-<img src="https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/blob/main/breed-bootloader.jpg">
-
-
-# KeeneticOS firmware 
-<img src="https://github.com/xiv3r/Xiaomi_4C_KeeneticOS/blob/main/multi-isp.jpg">
 
 <details><summary></summary>
 
