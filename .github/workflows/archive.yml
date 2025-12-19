@@ -18,11 +18,11 @@ jobs:
     - name: Download files
       run: |
         sudo apt update 
-        sudo apt install git zip -y
+        sudo apt install git tar -y
         mkdir downloads
         cd downloads
         git clone https://github.com/keen-prt/keen-prt.github.io.git
-        tar -I 'zstd -19' -cf archive_firmware.tar.zst keen-prt.github.io
+        tar -I 'zstd -9 -T0' -cf archive_firmware.tar.zst keen-prt.github.io
         
     - name: Determine release tag
       id: get_tag
@@ -78,6 +78,6 @@ jobs:
       with:
         tag_name: ${{ steps.get_tag.outputs.tag_name }}
         files: |
-             downloads/*.zip
+             downloads/*.tar.zst
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
