@@ -17,12 +17,10 @@ jobs:
 
     - name: Download files
       run: |
-        sudo apt update 
-        sudo apt install git tar -y
         mkdir downloads
         cd downloads
         git clone https://github.com/keen-prt/keen-prt.github.io.git
-        tar -cJf archive_firmware.tar.xz keen-prt.github.io/tree/main/public/assets/files/firmware/
+        tar -cJf archive_firmware.tar.xz keen-prt.github.io/tree/main/public/assets/files/firmware
         
     - name: Determine release tag
       id: get_tag
