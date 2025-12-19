@@ -22,7 +22,7 @@ jobs:
         mkdir downloads
         cd downloads
         git clone https://github.com/keen-prt/keen-prt.github.io.git
-        zip -r archive_firmware.zip keen-prt.github.io.git
+        zip -r archive_firmware.zip keen-prt.github.io
         
     - name: Determine release tag
       id: get_tag
