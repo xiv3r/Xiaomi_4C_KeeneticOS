@@ -22,7 +22,7 @@ jobs:
         mkdir downloads
         cd downloads
         git clone https://github.com/keen-prt/keen-prt.github.io.git
-        tar -I 'zstd -9 -T0' -cf archive_firmware.tar.zst keen-prt.github.io
+        tar -cJf archive_firmware.tar.xz keen-prt.github.io/tree/main/public/assets/files/firmware/
         
     - name: Determine release tag
       id: get_tag
@@ -78,6 +78,6 @@ jobs:
       with:
         tag_name: ${{ steps.get_tag.outputs.tag_name }}
         files: |
-             downloads/*.tar.zst
+             downloads/*.tar.xz
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
